@@ -4,6 +4,8 @@
 
 `npm install lazeez`
 
+`yarn add lazeez`
+
 
 #### Provided functions
 
