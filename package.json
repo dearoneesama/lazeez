@@ -1,13 +1,14 @@
 {
   "name": "lazeez",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lazeez",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "bin": "cli.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src/*.ts",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint src/*.ts cli.js",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"cli.js\"",
     "prepare": "npm run build"
   },
   "repository": {
