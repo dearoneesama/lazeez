@@ -1,5 +1,7 @@
 # lazeez
 
+![Node.js Build](https://github.com/dearoneesama/lazeez/workflows/Node.js%20Build/badge.svg)
+
 `npm install lazeez`
 
 
@@ -19,3 +21,11 @@ console.log('taking you to lazeez');
 goToLazeez()
     .then(() => console.log('have fun!'));
 ```
+
+#### CLI
+
+```bash
+% npx lazeez
+```
+
+Takes you to lazeez.

@@ -9,4 +9,5 @@
 const { goToLazeez } = require('./lib/index');
 
 console.log('taking you to lazeez');
-goToLazeez().then(() => console.log('have fun!'));
+goToLazeez()
+    .then(() => console.log('have fun!'));
