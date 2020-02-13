@@ -19,7 +19,8 @@ const { goToLazeez } = require('lazeez');
 
 console.log('taking you to lazeez');
 goToLazeez()
-    .then(() => console.log('have fun!'));
+    .then(() => console.log('have fun!'))
+    .catch(e => console.log(e));
 ```
 
 #### CLI
